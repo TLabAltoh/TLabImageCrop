@@ -10,7 +10,7 @@ Python: 3.9.7
 OS: Windows 10
 
 ## When using it
-Enter "python ${YOUR_PATH}\TLabImageCrop.py" from the command prompt and execute.
+Enter "python ${YOUR_PATH}\TLabImageCrop.py" from the command prompt and execute.  
 Make sure the path contains only alphanumeric or valid symbolic characters.
 
 ## Note
