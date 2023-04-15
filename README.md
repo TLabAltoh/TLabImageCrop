@@ -16,7 +16,7 @@ Enter
 python ${YOUR_PATH}\TLabImageCrop.py  
 ```  
 from the command prompt and execute.  
-(- Make sure the path contains only alphanumeric or valid symbolic characters).  
+(Make sure the path contains only alphanumeric or valid symbolic characters).  
 
 ## Note
 - If you use a high-resolution image, you can cut it out more neatly.  
