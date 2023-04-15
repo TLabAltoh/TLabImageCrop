@@ -12,7 +12,7 @@ OS: Windows 10
 ## When using it
 Enter  
   
-```python
+```
 python ${YOUR_PATH}\TLabImageCrop.py  
 ```  
 from the command prompt and execute  
