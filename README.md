@@ -14,7 +14,6 @@ Enter
   
 ```python
 python ${YOUR_PATH}\TLabImageCrop.py  
-  
 ```  
 from the command prompt and execute.  
 (- Make sure the path contains only alphanumeric or valid symbolic characters).  
