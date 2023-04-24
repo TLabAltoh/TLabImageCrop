@@ -1,7 +1,9 @@
 # TLabImageCrop
-This is software that performs mask clipping using both the mask image and the original image.  
+Pythonを使った画像のマスク切り抜きを実行するプログラム  
 
-## demonstration
+## 使用方法
+1. Blender等で切り抜きたいもとの画像(org_image)と，切り抜く箇所のみピクセルを白にした画像(mask_image)の2つを用意する
+2. パネルのorg_image, mask_imageそれぞれに
 ![UI_Image](https://user-images.githubusercontent.com/121733943/213375713-eb072071-d181-4572-b934-282436bb0543.png)  
 ![exprein_Image](https://user-images.githubusercontent.com/121733943/213297583-60b8a58e-1b32-4e3e-a0de-b9ef9ee1bd57.png)  
 
