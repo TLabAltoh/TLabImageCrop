@@ -1,23 +1,26 @@
 # TLabImageCrop
-Pythonを使った画像のマスク切り抜きを実行するプログラム  
 
-## スクリーンショット
+[日本語版READMEはこちら](README-ja.md)
+
+Program to perform mask cropping of images using Python  
+
+## Screenshot
 ![UI_Image](https://user-images.githubusercontent.com/121733943/213375713-eb072071-d181-4572-b934-282436bb0543.png)  
 ![exprein_Image](https://user-images.githubusercontent.com/121733943/213297583-60b8a58e-1b32-4e3e-a0de-b9ef9ee1bd57.png)  
 
-## 使用方法
-1. コマンドラインからプログラムを実行(パスは英数字のみ)
+## Getting Started
+1. Run the program from the command line (path must be alphanumeric)
 ```
 python ${YOUR_PATH}\TLabImageCrop.py  
 ```  
-2. 切り抜きたいもとの画像(org_image)と，切り抜く箇所のみピクセルを白にした画像(mask_image)の2つを用意する  
-3. パネルのOrgImage, MaskImageそれぞれに切り抜きたい画像とマスク画像を選択(画像のサイズを合わせること)
-4. save resolutionに切り抜いた画像を保存するサイズを指定
-5. Processから切り抜きを実行(しばらく待つ)
+2. Prepare two images: the original image to be clipped (org_image) and an image with white pixels only in the area to be clipped (mask_image)  
+3. Select the image to be cropped and the mask image for each OrgImage and MaskImage in the panel (the size of the images must be matched)
+4. Specify the size to save the cropped image in save resolution.
+5. Execute clipping from Process (wait for a while)
 
-## 実行環境
+## Operating Environment
 Python: 3.9.7  
 OS: Windows 10
 
 ## Note
-- 高い解像度の画像を用意すれば，切り抜いた結果がきれいになる
+- Higher-resolution images will produce a better cropped result
