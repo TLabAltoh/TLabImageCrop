@@ -10,7 +10,7 @@ Pythonを使った画像のマスク切り抜きを実行するプログラム
 ```
 python ${YOUR_PATH}\TLabImageCrop.py  
 ```  
-2. 切り抜きたいもとの画像(org_image)と，切り抜く箇所のみピクセルを白にした画像(mask_image)の2つを用意する  
+2. 切り抜きたいもとの画像(org_image)と，切り抜きたい箇所のみピクセルを白にした画像(mask_image)の2つを用意する  
 3. パネルのOrgImage, MaskImageそれぞれに切り抜きたい画像とマスク画像を選択(画像のサイズを合わせること)
 4. save resolutionに切り抜いた画像を保存するサイズを指定
 5. Processから切り抜きを実行(しばらく待つ)
